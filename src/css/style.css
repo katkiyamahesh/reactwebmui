@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body{
+    font-family: 'Poppins';
+}
+
+.Navigation-Menu{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+.Navigation-Menu li{
+    margin: 0 20px;
+}
+.Navigation-Menu li a{
+    text-decoration: none;
+    color: #000000;
+}
+.image-start{
+    width: 24px;
+}
+h2.herotitle{
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 110px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+h2.finance_sec{
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+@media (max-width:767px){
+    h2.herotitle{
+        font-size: 44px;
+        font-weight: 600;
+        line-height: 58px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+}
+.career .career-para{
+    font-size: 60px;
+    line-height: 90px;
+    font-weight: 600;
+}
+.career .career-para span{
+    background: linear-gradient(98.05deg, #0AB2EA 5.59%, #6F0478 296.05%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
